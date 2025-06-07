@@ -2,7 +2,7 @@
 Predict how popular a song would be on Spotify using these 15 music features:
 duration (ms), explicit, danceability,	energy,	key,	loudness,	mode, speechiness,	acousticness,	instrumentalness,	liveness,	valence,	tempo,	time signature,	and genre.
 
-Requirements (Install If You Do Not Have It:
+Requirements (Install If You Do Not Have It):
 * pandas
 * numpy
 * matplotlib
