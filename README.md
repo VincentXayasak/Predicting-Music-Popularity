@@ -14,4 +14,4 @@ Requirements (Install If You Do Not Have It):
 * scikit-optimize
 * tensorflow
 
-![WatershedGif](https://github.com/user-attachments/assets/3fdcaef4-1847-4e5d-8472-d6ceb79e30c4)
+![Image](https://github.com/user-attachments/assets/a4a5a796-139b-463e-8765-5c724ad96a1c)
