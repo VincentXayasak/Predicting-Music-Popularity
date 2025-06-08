@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("Cleaned_Dataset.csv")
+df = pd.read_csv("UnseenData.csv")
 
 model_features = [
     'duration_ms', 'explicit', 'danceability', 'energy', 'key', 'loudness',
@@ -10,9 +10,9 @@ model_features = [
 
 selected_df = df[['track_name', 'popularity'] + model_features]
 
-sampled_df = selected_df.sample(n=1)
+sampled_df = selected_df.sample(n=10) # Change how many random songs
 
-sampled_df[model_features].to_csv("Demo/Random_Songs_Input.csv", index=False)
+sampled_df[model_features].to_csv("Random_Songs_Input.csv", index=False)
 
 for idx, row in sampled_df.iterrows():
     print(f"Song: {row['track_name']}, Popularity: {row['popularity']}")
