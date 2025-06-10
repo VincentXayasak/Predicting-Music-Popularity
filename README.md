@@ -3,8 +3,6 @@ Website: https://huggingface.co/spaces/vincentxayasak/Spotify_Song_Popularity_Pr
 
 Demo: https://drive.google.com/file/d/1R9Ig3bgpHp4_LSSE4HgP7MjVzPTzZALD/view?usp=sharing
 
-Research Report: https://tinyurl.com/Hit-Spotify-Song-with-ML
-
 Predict how popular a song would be on Spotify using these 15 music features:
 duration (ms), explicit, danceability,	energy,	key,	loudness,	mode, speechiness,	acousticness,	instrumentalness,	liveness,	valence,	tempo,	time signature,	and genre.
 
